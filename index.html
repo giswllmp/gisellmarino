@@ -1,0 +1,253 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portafolio académico de Gisell Mariño, estudiante de Ingeniería Meteorológica y Gestión de Riesgos Climáticos.">
+  <title>Gisell Mariño | Portafolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio">GM</a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#certificados">Certificados</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="hero-identity">
+            <div class="hero-text">
+              <p class="eyebrow">Meteorología · Datos · Investigación · Campo</p>
+              <h1>Gisell Mariño</h1>
+              <p class="lead">
+                Estudiante de último ciclo de Ingeniería Meteorológica y Gestión de Riesgos Climáticos.
+              </p>
+            </div>
+            <div class="hero-photo-wrap">
+              <img class="hero-photo" src="assets/img/perfil-hero.png" alt="Fotografía de Gisell Mariño">
+            </div>
+          </div>
+          <p class="hero-copy">
+            Me interesa comprender los fenómenos atmosféricos desde distintas formas de trabajo:
+            análisis de datos, modelación, observación en campo y colaboración con equipos.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#proyectos">Explorar proyectos</a>
+            <a class="btn" href="#contacto">Contacto</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Áreas de trabajo">
+          <span>Análisis de datos</span>
+          <span>Modelación</span>
+          <span>Teledetección</span>
+          <span>SIG</span>
+          <span>Investigación aplicada</span>
+          <span>Trabajo de campo</span>
+        </aside>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="section">
+      <div class="container narrow">
+        <p class="section-kicker">Sobre mí</p>
+        <h2>Curiosidad científica con aplicación práctica</h2>
+        <p>
+          Cuento con experiencia académica en análisis de datos, modelación, teledetección y sistemas
+          de información geográfica. Me motiva involucrarme en proyectos donde pueda investigar,
+          proponer ideas, aprender de otros profesionales y transformar una pregunta en un trabajo concreto.
+        </p>
+        <p>
+          Me considero una persona responsable, curiosa y comprometida, con disposición para asumir
+          nuevos retos, participar en actividades de campo y trabajar en equipos multidisciplinarios.
+        </p>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section alt">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Proyectos</p>
+            <h2>Investigación y desarrollos académicos</h2>
+          </div>
+          <p class="section-note">Trabajos académicos y personales. Cuando corresponde, se indica si el proyecto no ha sido publicado.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-topline">
+              <span class="status">Proyecto académico individual</span>
+              <span class="year">2023</span>
+            </div>
+            <h3>Análisis exploratorio de incendios forestales y ozono troposférico en Chupaca, Junín</h3>
+            <p>
+              Exploración de la relación entre actividad de incendios, ozono troposférico y patrones
+              regionales de viento, integrando datos satelitales, observaciones atmosféricas y análisis en Python.
+            </p>
+            <div class="tags">
+              <span>Python</span>
+              <span>FRP</span>
+              <span>ERA5</span>
+              <span>Ozono</span>
+              <span>SIG</span>
+            </div>
+            <dl class="project-meta">
+              <div><dt>Datos</dt><dd>NOAA-20 / TerraBrasilis, IGP, ERA5</dd></div>
+              <div><dt>Enfoque</dt><dd>Análisis temporal, espacial y de correlación</dd></div>
+              <div><dt>Estado</dt><dd>No publicado · versión académica original disponible</dd></div>
+            </dl>
+            <div class="card-actions">
+              <button class="btn primary open-pdf" type="button"
+                data-pdf="assets/docs/ozono-incendios-chupaca-2023.pdf"
+                data-title="Ozono e incendios forestales — Chupaca 2023">
+                Ver informe
+              </button>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="status">Proyecto académico</span>
+            </div>
+            <h3>Ozono troposférico y variables meteorológicas en San Borja, Lima</h3>
+            <p>
+              Análisis temporal de la concentración de ozono troposférico y su relación con variables meteorológicas.
+            </p>
+            <div class="tags">
+              <span>Calidad del aire</span>
+              <span>Series temporales</span>
+              <span>Meteorología</span>
+            </div>
+            <p class="coming">Ficha completa próximamente.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="status">Desarrollo personal</span>
+            </div>
+            <h3>GIGIMETAR</h3>
+            <p>
+              Programa para decodificar mensajes METAR de manera automática y transformar la información
+              aeronáutica en variables legibles para su análisis.
+            </p>
+            <div class="tags">
+              <span>Programación</span>
+              <span>METAR</span>
+              <span>Meteorología aeronáutica</span>
+            </div>
+            <p class="coming">Demo y capturas próximamente.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span class="status">Proyecto conceptual de curso</span>
+            </div>
+            <h3>ChiriSAT</h3>
+            <p>
+              Propuesta conceptual de un sistema satelital orientado a la prevención y monitoreo de heladas
+              en Mazocruz, Puno.
+            </p>
+            <div class="tags">
+              <span>Heladas</span>
+              <span>Teledetección</span>
+              <span>Innovación</span>
+            </div>
+            <p class="coming">Documento y esquema próximamente.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section">
+      <div class="container">
+        <p class="section-kicker">Experiencia</p>
+        <h2>Aprender haciendo</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div>
+              <h3>Investigación académica</h3>
+              <p>Análisis de datos atmosféricos, interpretación de resultados, elaboración de mapas, gráficos y documentos técnicos.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div>
+              <h3>Trabajo colaborativo y actividades de campo</h3>
+              <p>Espacio reservado para incorporar tus experiencias, fotografías, voluntariados y actividades prácticas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificados" class="section alt">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Certificados</p>
+            <h2>Formación complementaria</h2>
+          </div>
+          <p class="section-note">Los certificados se podrán abrir aquí mismo en PDF o imagen.</p>
+        </div>
+        <div class="certificate-grid">
+          <div class="certificate-placeholder">Meteorología y clima</div>
+          <div class="certificate-placeholder">Datos y programación</div>
+          <div class="certificate-placeholder">SIG y teledetección</div>
+          <div class="certificate-placeholder">Formación complementaria</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact">
+      <div class="container narrow">
+        <p class="section-kicker">Contacto</p>
+        <h2>Conversemos</h2>
+        <p>
+          Interesada en oportunidades de investigación, proyectos académicos, trabajo de campo y colaboración interdisciplinaria.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:gisell.marinopariona@gmail.com">gisell.marinopariona@gmail.com</a>
+          <span class="muted">LinkedIn y GitHub se agregarán aquí.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© 2026 Gisell Mariño</span>
+      <a href="#inicio">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <div class="modal" id="pdfModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="pdfTitle">
+      <div class="modal-header">
+        <h2 id="pdfTitle">Documento</h2>
+        <div class="modal-actions">
+          <a id="openPdfNew" class="text-link" href="#" target="_blank" rel="noopener">Abrir en nueva pestaña</a>
+          <button class="close-button" type="button" data-close-modal aria-label="Cerrar">×</button>
+        </div>
+      </div>
+      <iframe id="pdfFrame" title="Vista previa del documento"></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
